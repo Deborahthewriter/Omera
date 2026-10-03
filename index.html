@@ -1,160 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Omera Portfolio & Blog</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-    <!-- Email Capture Popup Modal -->
-    <div id="emailModal" class="modal-overlay">
-        <div class="modal-box">
-            <button class="modal-close" onclick="closeModal()">&times;</button>
-            <div class="modal-content">
-                <h2>Join the Lifestyle Insider</h2>
-                <p>Subscribe to receive exclusive brand storytelling tips, content strategies, and lifestyle insights delivered straight to your inbox.</p>
-                <form class="modal-form" onsubmit="handleModalSubmit(event)">
-                    <input type="email" id="modalEmail" required placeholder="Enter your best email address">
-                    <button type="submit" class="btn btn-modal">Subscribe Now</button>
-                </form>
-                <span class="modal-note">No spam. Unsubscribe at any time.</span>
-            </div>
-        </div>
-    </div>
-
-    <!-- Header/Navigation -->
-    <header>
-        <nav class="nav-container">
-            <div class="logo">Omera<span>Copy</span></div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero-section">
-        <div class="hero-content">
-            <h1>Words That Make Brands Breathe.</h1>
-            <p>High-converting, soul-stirring copywriting and editorial content tailored for modern wellness, beauty, and lifestyle businesses.</p>
-            <div class="hero-cta">
-                <a href="#contact" class="btn btn-primary">Let's Work Together</a>
-                <a href="#portfolio" class="btn btn-secondary">View My Work</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="section">
-        <div class="container">
-            <h2 class="section-title">Selected Case Studies & Works</h2>
-            <p class="section-subtitle">A glimpse into campaigns, copy, and copy-strategy built to convert.</p>
-            <div class="grid-3">
-                <div class="card portfolio-card">
-                    <div class="card-tag">Brand Strategy</div>
-                    <h3>The Eco-Luxe Skincare Rebrand</h3>
-                    <p>Complete overhaul of web copy and voice guidelines for a sustainable luxury beauty brand, driving a 34% increase in sales.</p>
+            <h2 class="section-title">What I Can Create For Your Brand</h2>
+            <p class="section-subtitle">Polished, highly compelling copy assets tailored to turn passive scrollers into long-term loyal customers.</p>
+            
+            <div class="services-grid-layout">
+                <div class="new-service-box">
+                    <div class="service-icon-label">✦ SOCIAL MEDIA CONTENT</div>
+                    <p>Strategic posts engineered to do much more than simply keep your brand feed active.</p>
                 </div>
-                <div class="card portfolio-card">
-                    <div class="card-tag">Email Marketing</div>
-                    <h3>Wellness App Launch Campaign</h3>
-                    <p>A high-converting 5-part automated email sequences welcoming 12,000 new subscribers with a 42% open rate.</p>
+                <div class="new-service-box">
+                    <div class="service-icon-label">✦ BLOG & EDUCATIONAL CONTENT</div>
+                    <p>Useful, rich articles built to answer consumer inquiries and elevate domain authority.</p>
                 </div>
-                <div class="card portfolio-card">
-                    <div class="card-tag">Web Copy</div>
-                    <h3>Boutique Hotel Landing Pages</h3>
-                    <p>Conversion-focused landing page copy optimized for a retreat center resulting in booked-out weekends.</p>
+                <div class="new-service-box">
+                    <div class="service-icon-label">✦ PRODUCT & SALES COPY</div>
+                    <p>Conversion text that transforms product features into lifestyle benefits buyers care about.</p>
+                </div>
+                <div class="new-service-box">
+                    <div class="service-icon-label">✦ BRAND STORYTELLING</div>
+                    <p>Narratives that communicate who you are, what you stand for, and why your audience should invest.</p>
+                </div>
+                <div class="new-service-box">
+                    <div class="service-icon-label">✦ CAMPAIGN CONTENT</div>
+                    <p>Connected message assets built systematically around one unified, conversion-focused business goal.</p>
+                </div>
+                <div class="new-service-box">
+                    <div class="service-icon-label">✦ PROMOTIONAL COPY</div>
+                    <p>Persuasive, timely messaging designed to provoke instant interest and prompt swift reactions.</p>
+                </div>
+                <div class="new-service-box" style="grid-column: 1 / -1;">
+                    <div class="service-icon-label">✦ EMAIL & CUSTOMER MESSAGING</div>
+                    <p>Clear, immersive email flows that systematically nurture buyer interest and move prospects cleanly down the conversion line.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Blog Section -->
-    <section id="blog" class="section bg-light">
-        <div class="container">
-            <h2 class="section-title">From The Blog</h2>
-            <p class="section-subtitle">Deep dives into brand storytelling, consumer psychology, and modern lifestyle trends.</p>
-            <div class="grid-2">
-                <article class="card blog-card">
-                    <time datetime="2026-10-01">October 1, 2026</time>
-                    <h3><a href="#">The Art of Subtle Selling: Why Soft Copy Wins in Luxury Wellness</a></h3>
-                    <p>Modern consumers can spot a hard sell from miles away. Explore how narrative-focused copy builds deep organic trust...</p>
-                    <a href="#" class="read-more">Read Article &rarr;</a>
-                </article>
-                <article class="card blog-card">
-                    <time datetime="2026-09-18">September 18, 2026</time>
-                    <h3><a href="#">5 SEO Blindspots Most Lifestyle Brands Miss on Their Websites</a></h3>
-                    <p>Keywords are only half the battle. Discover why your search rankings stall and how optimization layouts solve it...</p>
-                    <a href="#" class="read-more">Read Article &rarr;</a>
-                </article>
+    <!-- Real-World Experience Section (Repolished Omoade Case Study) -->
+    <section id="experience" class="section">
+        <div class="container project-portfolio-grid">
+            <div class="portfolio-visual-mock">
+                <!-- Using a high-end imagery reference to represent your modern workspace look -->
+                <img src="https://unsplash.com" alt="Creative Content Strategy Work" class="portfolio-mock-img">
             </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="section">
-        <div class="container msg-box">
-            <div class="about-text">
-                <h2 class="section-title">Meet Your Copy Partner</h2>
-                <p>Hello! I am Deborah, a professional lifestyle copywriter specializing in transforming complex brand values into elegant, high-impact copy. I blend consumer psychology, sharp brand styling, and functional SEO strategy to help businesses get noticed, remembered, and chosen.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section bg-dark">
-        <div class="container">
-            <h2 class="section-title">Start A Project</h2>
-            <p class="section-subtitle">Ready to elevate your digital footprint? Tell me what you're building.</p>
-            <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
-                <div class="form-group">
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" required placeholder="Name or Business">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" required placeholder="name@company.com">
-                </div>
-                <div class="form-group">
-                    <label for="message">Project Overview</label>
-                    <textarea id="message" rows="5" required placeholder="Tell me about your brand goals..."></textarea>
-                </div>
-                <button type="submit" class="btn contact-btn">Send Message</button>
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2026 Omera. All rights reserved. Crafting copy that matters.</p>
-    </footer>
-
-    <script>
-        window.addEventListener('DOMContentLoaded', () => {
-            setTimeout(() => {
-                if (!sessionStorage.getItem('popupDismissed')) {
-                    document.getElementById('emailModal').classList.add('active');
-                }
-            }, 1500);
-        });
-
-        function closeModal() {
-            document.getElementById('emailModal').classList.remove('remove');
-            document.getElementById('emailModal').style.display = 'none';
-            sessionStorage.setItem('popupDismissed', 'true');
-        }
-
-        function handleModalSubmit(e) {
-            e.preventDefault();
-            const emailInput = document.getElementById('modalEmail').value;
-            alert(`Thank you for subscribing with: ${emailInput}`);
-            closeModal();
-        }
-    </script>
-</body>
-          </html>
+            <div class="portfolio-details-content">
+                <span class="section-badge">CASE STUDY</span>
+                <h2 class="left-title">I Know This Beyond Theory</h2>
+                <p class="intro-p">Before writing for external lifestyle brands, I utilized intentional storytelling layouts to build my own digital platforms from scratch.</p>
+                
+                <div class="case-study-block">
+                    <h3 class="case-company">OMOADE BUSINESS STARTUP</h3>
+                    <p class="case-role">Founder & Content Lead</p>
+                    <p>I founded Omoade Business Startup, a digital training platform explicitly focused on breaking down complex online marketing, conversion selling, and scalable business growth.</p>
+                    
+                    <div class="metrics-row-cards">
